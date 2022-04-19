@@ -1,6 +1,6 @@
 fun main() {
     /*
-        Uma função infixa é uma função que pode ser chamada sem parênteses e ponto
+        Uma função infixa é uma função que pode ser chamada sem parênteses e ponto.
         Regras para ser infixa:
             - Um único parâmetro;
             - O parâmetro não pode aceitar um número variável de argumentos

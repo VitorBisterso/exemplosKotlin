@@ -9,7 +9,7 @@
     O mesmo se aplica aos métodos de uma classe, aqueles que poderão,
     eventualmente, serem reimplementados, devem ter o termo 'open', também.
 */
-open class Catioro(val nome: String, var fofo: Boolean) {
+open class Catioro(var nome: String, val fofo: Boolean) {
     open fun latir() {
         println("au au!")
     }

@@ -13,12 +13,17 @@ data class Usuario(val nome: String, val id: Int) {
 
 fun main() {
     val abel = Usuario("Abel", 1)
+    
+    // Se tentarmos o abaixo, por serem atributos constantes,
+    // teremos um erro de compilação
+    //abel.id = 123
+
+    // toString()
     println(abel)
 
     val outroAbel = Usuario("Abel", 1)
     val ceni = Usuario("Ceni", 2)
 
-    // toString()
     println("abel == outroAbel: ${abel == outroAbel}")
     println("abel == ceni: ${abel == ceni}")
 
